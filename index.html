@@ -45,20 +45,18 @@
             gap: 10px;
         }
         .stat-button {
-            background-color: #f9f9f9;
             border: none;
             border-radius: 10px;
             padding: 15px;
             text-align: center;
             font-size: 18px;
-            color: #333;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: filter 0.3s;
             text-decoration: none;
             display: block;
         }
         .stat-button:hover {
-            background-color: #e0e0e0;
+            filter: brightness(90%);
         }
         .stat-value {
             font-weight: bold;
@@ -68,6 +66,14 @@
         .stat-label {
             font-size: 14px;
         }
+
+        /* Custom button styles */
+        .button-1 { background-color: #eee6d3; color: #955538; }
+        .button-2 { background-color: #000000; color: #ffffff; }
+        .button-3 { background-color: linear-gradient(8deg, rgb(215, 38, 126) 0%, rgb(62, 61, 154) 100%); color: #333; }
+        .button-4 { background-color: #2c5185; color: #ffffff; }
+        .button-5 { background-color: #f9f9f9; color: #f9f9f9; }
+        .button-6 { background-color: #f9f9f9; color: #f9f9f9; }
     </style>
 </head>
 <body>
@@ -80,27 +86,27 @@
     <div class="container">
         <h2>منتجات وحوش الشعر</h2>
         <div class="stats-grid">
-            <a href="https://mr-mosaab.github.io/alshe3r/203.pdf" class="stat-button">
-                <div class="stat-value">108 بيتا</div>
-                <div class="stat-label">ملف وحوش الشعر 2</div>
+            <a href="https://mr-mosaab.github.io/alshe3r/203.pdf" class="stat-button button-1">
+                <div class="stat-value">ملف وحوش الشعر 2</div>
+                <div class="stat-label"> 108 بيتا</div>
             </a>
-            <a href="https://mr-mosaab.github.io/alshe3r/213.pdf" class="stat-button">
-                <div class="stat-value">115 بيتا</div>
-                <div class="stat-label">ملف وحوش الشعر 3</div>
+            <a href="https://mr-mosaab.github.io/alshe3r/213.pdf" class="stat-button button-2">
+                <div class="stat-value">ملف وحوش الشعر 3</div>
+                <div class="stat-label">115 بيتا</div>
             </a>
-            <a href="https://mr-mosaab.github.io/alshe3r/223.pdf" class="stat-button">
-                <div class="stat-value">121 بيتا</div>
-                <div class="stat-label">ملف وحوش الشعر 4</div>
+            <a href="https://mr-mosaab.github.io/alshe3r/223.pdf" class="stat-button button-3">
+                <div class="stat-value">ملف وحوش الشعر 4</div>
+                <div class="stat-label">121 بيتا</div>
             </a>
-            <a href="#link4" class="stat-button">
-                <div class="stat-value">117 بيتا</div>
-                <div class="stat-label">ملف وحوش الشعر 5</div>
+            <a href="#link4" class="stat-button button-4">
+                <div class="stat-value">ملف وحوش الشعر 5</div>
+                <div class="stat-label">117 بيتا</div>
             </a>
-            <a href="#link5" class="stat-button">
+            <a href="#link5" class="stat-button button-5">
                 <div class="stat-value">0</div>
                 <div class="stat-label">بيت</div>
             </a>
-            <a href="#link6" class="stat-button">
+            <a href="#link6" class="stat-button button-6">
                 <div class="stat-value">0</div>
                 <div class="stat-label">حديث</div>
             </a>
@@ -108,4 +114,3 @@
     </div>
 </body>
 </html>
-
