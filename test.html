@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وحوش الشعر</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background: linear-gradient(14deg, rgb(215, 38, 126) 0%, rgb(62, 61, 154) 100%);
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .logo-icon {
+            font-size: 30px;
+            margin-left: 10px;
+        }
+        .container {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: right;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: fit-content;
+        }
+        .stat-button {
+            border: none;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+            transition: filter 0.3s;
+            text-decoration: none;
+            display: block;
+            aspect-ratio: 0.707;
+            /*max-height: 200px;*/
+        }
+        .stat-button:hover {
+            filter: brightness(90%);
+        }
+        .stat-value {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .stat-label {
+            font-size: 14px;
+        }
+
+        /* Custom button styles */
+        .button-1 { background-color: #eee6d3; color: #955538; }
+        .button-2 { background-color: #000000; color: #ffffff; }
+        .button-3 { background-image: linear-gradient(20deg, rgb(215, 38, 126) 0%, rgb(62, 61, 154) 100%); color: #ffffff; }
+        .button-4 { background-image: url("https://mr-mosaab.github.io/alshe3r/background233.jpg");
+                    background-size: cover; color: #ffffff; }
+        .button-5 { background-color: #f9f9f9; color: #f9f9f9; }
+        .button-6 { background-color: #f9f9f9; color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <span class="logo-icon">📘✒️</span>
+            وحوش الشعر
+        </div>
+    </div>
+    <div class="container">
+        <h2>ملفات وحوش الشعر</h2>
+        <center>
+        <div class="stats-grid">
+            <a href="https://mr-mosaab.github.io/alshe3r/alshe3r_season2-203.pdf" class="stat-button button-1">
+                <div class="stat-value"> وحوش الشعر 2</div>
+                <div class="stat-label"> 108 بيتًا</div>
+            </a>
+            <a href="https://mr-mosaab.github.io/alshe3r/alshe3r_season3-213.pdf" class="stat-button button-2">
+                <div class="stat-value"> وحوش الشعر 3</div>
+                <div class="stat-label">115 بيتًا</div>
+            </a>
+            <a href="https://mr-mosaab.github.io/alshe3r/alshe3r_season4-223.pdf" class="stat-button button-3">
+                <div class="stat-value"> وحوش الشعر 4</div>
+                <div class="stat-label">121 بيتًا</div>
+            </a>
+            <a href="https://mr-mosaab.github.io/alshe3r/alshe3r_season5-233.pdf" class="stat-button button-4">
+                <div class="stat-value"> وحوش الشعر 5</div>
+                <div class="stat-label">117 بيتًا</div>
+            </a>
+            <a href="#link5" class="stat-button button-5">
+                <div class="stat-value">0</div>
+                <div class="stat-label">بيت</div>
+            </a>
+            <a href="#link6" class="stat-button button-6">
+                <div class="stat-value">0</div>
+                <div class="stat-label">حديث</div>
+            </a>
+        </div>
+        </center>
+    </div>
+</body>
+</html>
