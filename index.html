@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>وحوش الشعر</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>وحوش الشعر</title> 
     <style>
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Amiri", system-ui;
+            font-weight: 400;
+            font-style: normal;
             margin: 0;
             padding: 0;
             background-color: #f0f0f0;
         }
         .header {
-            background: linear-gradient(14deg, rgb(215, 38, 126) 0%, rgb(62, 61, 154) 100%);
+            background: linear-gradient(10deg, rgb(215, 38, 126) 0%, rgb(62, 61, 154) 100%);
             color: white;
             padding: 10px;
             display: flex;
@@ -20,11 +25,11 @@
             align-items: center;
         }
         .logo {
-            font-size: 24px;
+            font-size: 28px;
             font-weight: bold;
         }
         .logo-icon {
-            font-size: 30px;
+            font-size: 28px;
             margin-left: 10px;
         }
         .container {
@@ -33,38 +38,50 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            aspect-ratio: 1.1;
+            max-height: 70vh;
         }
         h2 {
             text-align: right;
             color: #333;
+            font-size: 24px;
             margin-bottom: 20px;
         }
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 10px;
+           
         }
         .stat-button {
             border: none;
             border-radius: 10px;
-            padding: 15px;
+            padding: 10px;
             text-align: center;
-            font-size: 18px;
+            font-size: 20px;
             cursor: pointer;
             transition: filter 0.3s;
             text-decoration: none;
-            display: block;
+            aspect-ratio: 0.707;
+            max-height: 30.5vh;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
         .stat-button:hover {
-            filter: brightness(90%);
+            filter: brightness(75%);
         }
         .stat-value {
             font-weight: bold;
-            font-size: 16px;
+            font-size: 18px;
             margin-bottom: 5px;
         }
         .stat-label {
-            font-size: 14px;
+            font-size: 16px;
         }
 
         /* Custom button styles */
@@ -84,8 +101,10 @@
             وحوش الشعر
         </div>
     </div>
+    <center>
     <div class="container">
         <h2>ملفات وحوش الشعر</h2>
+        <center>
         <div class="stats-grid">
             <a href="https://mr-mosaab.github.io/alshe3r/alshe3r_season2-203.pdf" class="stat-button button-1">
                 <div class="stat-value"> وحوش الشعر 2</div>
@@ -104,14 +123,16 @@
                 <div class="stat-label">117 بيتًا</div>
             </a>
             <a href="#link5" class="stat-button button-5">
-                <div class="stat-value">0</div>
-                <div class="stat-label">بيت</div>
+                <div class="stat-value">وحوش الشعر 6</div>
+                <div class="stat-label">120 بيتًا</div>
             </a>
             <a href="#link6" class="stat-button button-6">
-                <div class="stat-value">0</div>
-                <div class="stat-label">حديث</div>
+                <div class="stat-value">وحوش الشعر 7</div>
+                <div class="stat-label">120 بيتًا</div>
             </a>
         </div>
+        </center>
     </div>
+    </center>
 </body>
 </html>
